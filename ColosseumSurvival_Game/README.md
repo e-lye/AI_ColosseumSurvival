@@ -1,7 +1,5 @@
 # Colosseum Survival!
 
-**Project Description & Template** : https://www.overleaf.com/read/vnygbjryrxrt
-
 <p align="center">
   <img src="https://cdn.britannica.com/36/162636-050-932C5D49/Colosseum-Rome-Italy.jpg?w=690&h=388&c=crop">
 </p>
@@ -55,9 +53,9 @@ During autoplay, boards are drawn randomly between size `--board_size_min` and `
 - Not all agents supports autoplay. The variable `self.autoplay` in [Agent](agents/agent.py) can be set to `True` to allow the agent to be autoplayed. Typically this flag is set to false for a `human_agent`.
 - UI display will be disabled in an autoplay.
 
-## Develop your own general agent(s) to explore ideas and prepare your report:
+## Develop your own general agent(s):
 
-You need to write one agent and submit it for the class project, but you may develop additional agents during the development process to play against eachother, gather data or similar. To write a general agent:
+To write a general agent:
 
 1. Modify or copy the [`student_agent.py`](agents/student_agent.py) file in [`agents/`](agents/) directory, which extends the [`agents.Agent`](agents/agent.py) class. 
 2. Implement the `step` function with your game logic
@@ -65,25 +63,6 @@ You need to write one agent and submit it for the class project, but you may dev
 4. [This step is already done for `StudentAgent`, but new files you create must be added] Import your agent in the [`__init__.py`](agents/__init__.py) file in [`agents/`](agents/) directory
 5. Now you can give the name you picked for your agent in the simulator.py command line as --player_1 or --player_2 and see it play against others.
     
-## Develop your ONE student_agent that is the strongest player you have found, to be handed in for performance evaluation:
-
-You will submit only one code file for grading: student_agent.py. It will be a game agent just as described above, but it must follow some special rules to make it possible to run in auto-grading. Failing to follow the instructions below precisely risks an automatic assignment of "poor" for the performance grade as we don't have time to debug everyone's solution.
-
-1. All of your modifications must be done *ONLY* in the [`student_agent.py`](agents/student_agent.py) file, which you will submit on My Courses.
-2. Do not add any additional imports.
-3. The `StudentAgent` class *must be* decorated with exactly the name `student_agent`. Do not add any comments or change that line at all, as we will be interacting with it via scripting as we auto-run your agents in the tournament.
-4. You can add other variables and helper functions within the file, either inside the StudentAgent class, or at global scope.
-5. As a final test before submitting, make 100% sure the player you wish to be evaluated on is run with the following commands (to get a strong grade, you should nearly always beat the random_agent and it should be as hard as possible for you to beat it with human play.
-
-    ```
-    python simulator.py --player_1 random_agent --player_2 student_agent --display 
-    ```
-
-6. Check autoplay with your agent and `random_agent` is working
-
-    ```
-    python simulator.py --player_1 random_agent --player_2 student_agent --autoplay
-    ```
 
 ## Full API
 
@@ -137,14 +116,6 @@ Here we show a gameplay describing a $`2`$-player game on a $`5\times 5`$ chessb
 </p>
 
 The final score is $`A:B = 15:10`$. So A wins the game.
-
-## Issues? Bugs? Questions?
-
-Feel free to open an issue in this repository, or contact us in Ed thread.
-
-## About
-
-This is a class project for COMP 424, McGill University, Fall 2022 (it was forked from the past year, Winter 2022 with the permission of Jackie Cheung).
 
 ## License
 

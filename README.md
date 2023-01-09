@@ -4,11 +4,11 @@ In this project, Jack and I have developed an AI agent after exploring several r
 
 ## Repository Description
 
-* **ColosseumSurvival_Game** (Folder)
+* [**ColosseumSurvival_Game**](https://github.com/e-lye/AI_ColosseumSurvival/tree/main/ColosseumSurvival_Game)
     * Contains the base repository provided to us, used to play the game and write our agents in.
-* **OurAgents** (Folder)
+* [**OurAgents**](https://github.com/e-lye/AI_ColosseumSurvival/tree/main/OurAgents)
     * Contains all the AI agents Jack and I have developed in our research. Our final and strongest agent being *student_agent.py*.
-* **AI_AnalysisReport.pdf** (PDF)
+* [**AI_AnalysisReport.pdf**](https://github.com/e-lye/AI_ColosseumSurvival/blob/main/AI_AnalysisReport.pdf) (PDF)
     * Our written report of our implementation process as well as analysis of methods throughout our development.
 
 
